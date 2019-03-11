@@ -29,30 +29,27 @@ Generate *common qr-code*,  *artistic qr-code (black & white or colorized)*,  *a
 
 ## Examples
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/qrs0.jpg)
+![](example/qrs0.jpg)
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/qrs1.jpg)
+![](example/qrs1.jpg)
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/qrs2.jpg)
+![](example/qrs2.jpg)
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/c_qrcode.gif)![](https://github.com/sylnsfar/qrcode/blob/master/example/daftpunktocat-guy_qrcode.gif)
+![](example/c_qrcode.gif)![](example/daftpunktocat-guy_qrcode.gif)
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/zootopia_qrcode.gif)![](https://github.com/sylnsfar/qrcode/blob/master/example/daftpunktocat-guy_qrcode0.gif)
-
-  
+![](example/zootopia_qrcode.gif)![](example/daftpunktocat-guy_qrcode0.gif)
 
   
 
-## Install
+  
+
+## Install (sylnsfar version, not this one)
 
 ```python
 # via pip
 pip(3) install myqr(or MyQR)
 ```
-
-​    
-
-   
+This version should be installed manually.
 
 ## Usage
 
@@ -76,10 +73,6 @@ myqr 	Words
 - see [Common QR-Code](#common-qr-code) for `Words`, `-v`, `-l`, `-n`, `-d`
 - see [Artistic QR-Code](#artistic-qr-code) for `-p`, `-c`, `-con`, `-bri`
 - see [Animated GIF QR-Code](#animated-gif-qr-code) about GIF
-
-
-​    
-
 
 #### Common QR-Code
 
@@ -130,7 +123,7 @@ myqr https://github.com   -n github_qr.jpg   -d .../paths/
 
 #### Artistic QR-Code
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/1.png)![](https://github.com/sylnsfar/qrcode/blob/master/example/2.png)
+![](example/1.png)![](example/2.png)
 
 
 ```markdown
@@ -170,7 +163,7 @@ myqr https://github.com -p github.jpg [-c] -con 1.5 -bri 1.6
 
 #### Animated GIF QR-Code
 
-![](https://github.com/sylnsfar/qrcode/blob/master/example/daftpunktocat-guy_qrcode.gif)![](https://github.com/sylnsfar/qrcode/blob/master/example/daftpunktocat-guy_qrcode0.gif)
+![](example/daftpunktocat-guy_qrcode.gif)![](example/daftpunktocat-guy_qrcode0.gif)
 
 The only difference from Artistic QR-Code mentioned above is that you should input an image file in the `.gif` format. The you can get your black-and-white or colorful qr-code. Remember that when you use `-n` to customize the output-filename, then the output-filename must end by `.gif`.
 
@@ -227,15 +220,15 @@ Optional parameters
 
 * If the size of the picture is large, you should also choose a **rightly** large `-v` instead of using the default one.
 
-* If part of the picture is transparent, the qr code will look like: ![](https://github.com/sylnsfar/qrcode/blob/master/example/aa.png)
+* If part of the picture is transparent, the qr code will look like: ![](example/aa.png)
 
-  You can change the transparent layer to white, and then it will look like: ![](https://github.com/sylnsfar/qrcode/blob/master/example/a0.png)
-
-
+  You can change the transparent layer to white, and then it will look like: ![](example/a0.png)
 
 
 
-## Supported Characters
+
+
+## Supported Characters (sylnsfar version)
 
 * Numbers:  `0~9`
 
@@ -246,7 +239,7 @@ Optional parameters
   ```console
   · , . : ; + - * / \ ~ ! @ # $ % ^ & ` ' = < > [ ] ( ) ? _ { } | and  (space)
   ```
-
+This version supports more characters, including line break and carriage return.
 
    
 
@@ -257,21 +250,14 @@ Optional parameters
 * [imageio](https://pypi.python.org/pypi/imageio)
 
 
-
-
 *(**TIPS**: Without a installed [**MyQR**](https://pypi.python.org/pypi/MyQR), you should use `pip install -r requirements.txt` to ensure you have all dependencies.)*
 
-  
 
 ## Environment
 
 * Linux, Python 3
 * Windows, Python 3
 * Mac, Python 3
-
-
-​    
-
 
 ## License 
 
