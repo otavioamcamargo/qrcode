@@ -1,24 +1,15 @@
 # QR-Code
-[*转到中文版*](https://github.com/sylnsfar/qrcode/blob/master/README-cn.md)
+Almost all credits to (https://github.com/sylnsfar/qrcode/)
 
-* **update (160906)**: added an **exe** version - [myqr.exe in qrcode_win](https://github.com/sylnsfar/qrcode_win)
+This branch is just a modification in the code that allows any lenght and special chars to, including carriage return. In other words, you can create QR-codes from vcards and other texts that have line breaks.
 
-* **update (160908)**: added a **web** version - [amazing-qrcode](http://www.amazing-qrcode.com/) *(made by [Maras0830](https://github.com/Maras0830))*
-
-* **update (160910)**: distributed to **PyPI** - [**MyQR**](https://pypi.python.org/pypi/MyQR) ! 
-
-  * 160911: updated to be importable
-
-  ​
+There is a unknown text lenght limitation in qr-codes with gifs.
 
 ## Overview
-
 
 **Python QR Code Generator**
 
 Generate *common qr-code*,  *artistic qr-code (black & white or colorized)*,  *animated qr-code (black & white or colorized)*.
-
-​     
 
 ## Contents
 
@@ -35,8 +26,6 @@ Generate *common qr-code*,  *artistic qr-code (black & white or colorized)*,  *a
 * [Environment](#environment)
 * [License](#license)
 
-
-​
 
 ## Examples
 
