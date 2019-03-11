@@ -1,5 +1,5 @@
 # QR-Code
-Almost all credits to (https://github.com/sylnsfar/qrcode/)
+99% of credits to (https://github.com/sylnsfar/qrcode/)
 
 This branch is just a modification in the code that allows any lenght and special chars to, including carriage return. In other words, you can create QR-codes from vcards and other texts that have line breaks.
 
